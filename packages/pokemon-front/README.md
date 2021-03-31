@@ -1,6 +1,6 @@
 # Pokemon Frontend
 
-A ReactJs App for the Pokedex UI. It has been created with [Create React App](https://github.com/facebook/create-react-app) 
+A ReactJs App for the Pokedex UI. It has been created with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Architecture Overview
 

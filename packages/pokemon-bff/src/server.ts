@@ -1,10 +1,8 @@
-import {App} from './app';
+import { App } from './app';
 
-
-const PORT = process.env['PORT'] || 3000;
-
+const PORT = process.env['PORT'] || 3001;
 
 const app = new App();
 app.retrieveApp().listen(PORT, () => {
-  console.log("listening on port " + PORT);
+  console.log('listening on port ' + PORT);
 });
