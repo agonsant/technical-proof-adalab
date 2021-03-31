@@ -1,0 +1,33 @@
+{
+  "name": "technical-proof-adalab",
+  "version": "1.0.0",
+  "description": "A technical proof of concept for Adalab selection process",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agonsant/technical-proof-adalab.git"
+  },
+  "keywords": [
+    "Adalab",
+    "Pokemon",
+    "Technical",
+    "Express",
+    "ReactJS"
+  ],
+  "author": "Alejandro Gonzalez Santiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agonsant/technical-proof-adalab/issues"
+  },
+  "homepage": "https://github.com/agonsant/technical-proof-adalab#readme",
+  "workspaces":[
+    "packages/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
