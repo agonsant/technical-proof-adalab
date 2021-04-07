@@ -5,7 +5,7 @@ In order to reduce the pokeAPI requests it stores the responses into memory cach
 
 ## Architecture Overview
 
-TBD
+![BFF architecture and user flow](./docs/bff-architecture.png)
 
 ## Starting
 
@@ -23,10 +23,8 @@ The project uses jest to testing execution. In order to run the test just execut
 
 > npm test
 
-## Best practices
-
-TBD
+Due to time limitation the current test coverage is 0%
 
 ### API Caching
 
-TBD
+The API has a memory cache in order to resource optimization. It uses [memory-cache](https://www.npmjs.com/package/memory-cache) as a helper structure
