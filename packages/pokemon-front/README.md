@@ -2,10 +2,6 @@
 
 A ReactJs App for the Pokedex UI. It has been created with [Create React App](https://github.com/facebook/create-react-app)
 
-## Architecture Overview
-
-TBD
-
 ## Starting
 
 To start the dev server application, first of all you need to install npm dependencies:
@@ -22,6 +18,4 @@ The project uses jest to testing execution. In order to run the test just execut
 
 > npm test
 
-## Best practices
-
-TBD
+Due to time limitation the current test coverage is 0%
