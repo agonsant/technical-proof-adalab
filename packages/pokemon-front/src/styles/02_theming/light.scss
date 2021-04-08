@@ -1,0 +1,10 @@
+@import '../01_settings/colors.scss';
+
+body {
+  &.light {
+    --bg-color: #{$color-gold};
+    --bg-color-top-corners: #{$color-black};
+    --bg-color-bottom-corners: #{$color-red};
+    --color-secondary: #{$color-light-brown};
+  }
+}
