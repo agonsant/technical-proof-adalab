@@ -1,6 +1,39 @@
 .page {
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   min-height: 100vh;
+  --bg-triangle-corner-size: 75px;
+  --bg-circle-corner-radius: 150px;
+}
+
+.corner-top-left {
+  position: fixed;
+  width: var(--bg-triangle-corner-size);
+  height: var(--bg-triangle-corner-size);
+  background: linear-gradient(to top left, transparent 50%, black 50%) top left;
+}
+.corner-top-right {
+  position: fixed;
+  right: 0;
+  width: var(--bg-triangle-corner-size);
+  height: var(--bg-triangle-corner-size);
+  background: linear-gradient(to top right, transparent 50%, black 50%) top right;
+}
+
+.corner-bottom-left {
+  position: fixed;
+  bottom: 0;
+  width: var(--bg-circle-corner-radius);
+  height: var(--bg-circle-corner-radius);
+  background: radial-gradient(circle at bottom left, red 70%, transparent 30%) bottom left;
+}
+
+.corner-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: var(--bg-circle-corner-radius);
+  height: var(--bg-circle-corner-radius);
+  background: radial-gradient(circle at bottom right, red 70%, transparent 30%) bottom right;
 }
 
 .container {
