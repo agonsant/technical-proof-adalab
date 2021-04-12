@@ -8,8 +8,8 @@ import Styles from './spinner.module.scss';
 const Spinner: React.FC<unknown> = (props): ReactElement => {
   return (
     <div className={Styles.spinner}>
-      <div></div>
-      <div></div>
+      <div className={Styles.circle}></div>
+      <div className={Styles.circle}></div>
     </div>
   );
 };
